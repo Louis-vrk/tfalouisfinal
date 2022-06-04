@@ -1,25 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>DWMA project</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="description" content="">
-  <!-- Meta Partage -->
-  <!-- Favicon -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="styles/app.css">
-
-  <script src="scripts/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="scripts/app.js" defer></script>
+    <title>SportMate</title>
 </head>
+
 <body>
+    <nav class="navbar">
+        <div class="logo__navbar">
+            <img class="logo" src="assets/images/logo.svg" alt="">
+        </div>
+        <div class="linkss__navbar">
+            <ul>
+                <li> <button class="darkmode__navbar">Dark mode</button></li>
+            </ul>
+        </div>
+    </nav>
 
-  <img src="assets/images/logo-heaj.png">
-  <h1>Hello world</h1>
+    <div class="container">
+        <div class="container__text">
+            <h1 class="container__title">Compléter votre équipe avec un équipier de <mark>qualité !</mark></h1>
+            <p class="container__content">Avec SportMates, il n'a jamais été aussi simple de trouver un coéquiper pour compléter votre équipe de sport.</p>
+            <img class="container__image" src="assets/images/353410.svg" width="250" height="250" alt="App store">
+            <img class="container__image" src="assets/images/291947.svg" width="280" height="250" alt="Google play">
+        </div>
+        <div class="container__illu">
+            <img src="assets/images/mockup.png" srcset="assets/images/mockup--retina.png 2x"  alt="">
+        </div>
+        <div class="container__mobilebtns">
+            <img class="container__image" src="assets/images/353410.svg" width="250" height="250" alt="App store">
+            <img class="container__image" src="assets/images/291947.svg" width="280" height="250" alt="Google play">
+        </div>
+    </div>
 
-  <img src="assets/images/school.jpg" class="school-img">
+    <div class="about">
+        <p class="about__content">SportMates, c'est la première application Belge permettant de trouver un coéquipier de qualité pour vos sessions de sport.</p>
+    </div>
 
+    <div class="functioning">
+        <h2 class="title__functioning">Comment ça fonctionne ?</h2>
+        <div class="grid">
+            <div class="element1__grid">
+                <img class="image1__grid" src="assets/images/user.svg" width="100" height="100" alt="">
+                <div class="text__grid">
+                    <h2 class="title__grid">Première étape.</h2>
+                    <p class="text__gird">Inscrivez-vous en renseignant les sports que vous pratiqués et votre niveau.</p>
+                </div>
+            </div>
+
+            <div class="element2__grid">
+                <img class="image2__grid" src="assets/images/writing.svg" width="100" height="100" alt="">
+                <div class="text__grid">
+                    <h2 class="title__grid">Deuxième étape.</h2>
+                    <p class="text__gird">Grace à la géolocalisation, des profils qui vous correspondent vous sont proposer.</p>
+                </div>
+            </div>
+
+            <div class="element3__grid">
+                <img class="image3__grid" src="assets/images/writing.svg" width="100" height="100" alt="">
+                <div class="text__grid">
+                    <h2 class="title__grid">Troisième étape.</h2>
+                    <p class="text__gird">Entrez en contact avec la personne et planifier ensemble une session de sport.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <H2 class="title__functioning2">Fonctionnalités.</H2>
+
+    <div class="features">
+        <div class="features__text">
+            <p class="features__text1">➜ Inscription en moins de 2 minutes.</p>
+            <p class="features__text2">➜ Poster autant qu'annonce que vous voulez. </p>
+            <p class="features__text3">➜ 4 sports de raquette disponible. </p>
+            <p class="features__text4">➜ Support technique 24h/24.</p>
+
+        </div>
+        <div class="features__images">
+            <img src="assets/images/mockup1.png" srcset="assets/images/mockup1--retina.png 2x" width="300" alt="">
+            <img src="assets/images/mockup2.png" srcset="assets/images/mockup2--retina.png 2x"  width="300" alt="">
+        </div>
+    </div>
+
+    <div class="free">
+        <h2 class="free__h2">L'application est 100% gratuite, pouquoi ne pas l'utiliser ?</h2>
+        <button class="button">Obtenir</button>
+    </div>
+
+    <H2 class="title__functioning2">Foire aux questions.</H2>
+    <div class="faq">
+        <h3 class="faq__title">Comment télécharger notre application ?</h3>
+        <p class="faq__content">Rendez-vous sur l'App store ou sur le Play store.</p>
+        <h3 class="faq__title">Mon téléphone est-il compatible ?</h3>
+        <p class="faq__content">Pour savoir si votre appareil est compatible, consultez la liste des appareils compatibles.</p>
+        <h3 class="faq__title">J'ai un problème avec l'application, que faire ?</h3>
+        <p class="faq__content">Notre support technique est la pour vous aider 24h/24. </p>
+        <h3 class="faq__title">Allez-vous ajouter d'autres sports ?</h3>
+        <p class="faq__content">Pour l'instant nous nous concentrons sur 4 sports de raquette.</p>
+    </div>
+
+    <h2 class="title__functioning2">Aperçu.</h2>
+    <div class="apercu">
+        <img src="assets/images/apercu.png" srcset="assets/images/apercu--retina.png 2x"  width="900" alt="mockups">
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p class="footer__credit">Louis Vereecke © 2022</p>
+            <a id="casestudylink" href="./case-study.html">Case study /</a>
+            <a href="http://dwm.re/">DWT</a>
+        </div>
+    </footer>
 </body>
+
 </html>
+
+
+
