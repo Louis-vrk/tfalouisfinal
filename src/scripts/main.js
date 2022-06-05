@@ -30,3 +30,25 @@ function dark(){
 function light(){
     document.body.setAttribute("data-theme", "light");
 }
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from(".mockup", {
+    opacity: 0, 
+    y: 150, 
+    duration: 2
+  });
+
+  gsap.from(".apercu__img", {
+    opacity: 0, 
+    y: 150, 
+    duration: 2
+  });
+
+  gsap.from(".test", {
+    opacity: 0, 
+    y: 150, 
+    duration: 2
+  });
